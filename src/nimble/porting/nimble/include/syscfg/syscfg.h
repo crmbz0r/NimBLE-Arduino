@@ -239,7 +239,7 @@
 
 /*** @apache-mynewt-core/sys/console/stub */
 #ifndef MYNEWT_VAL_CONSOLE_UART_BAUD
-#define MYNEWT_VAL_CONSOLE_UART_BAUD (115200)
+#define MYNEWT_VAL_CONSOLE_UART_BAUD (38400)
 #endif
 
 #ifndef MYNEWT_VAL_CONSOLE_UART_DEV

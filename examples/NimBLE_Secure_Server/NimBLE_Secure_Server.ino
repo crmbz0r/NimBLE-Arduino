@@ -11,7 +11,7 @@
 #include <NimBLEDevice.h>
 
 void setup() {
-  Serial.begin(115200);
+  Serial.begin(38400);
   Serial.println("Starting NimBLE Server");
   NimBLEDevice::init("NimBLE");
 #ifdef ESP_PLATFORM

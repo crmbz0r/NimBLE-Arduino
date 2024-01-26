@@ -36,7 +36,7 @@ class MyCallbacks: public BLECharacteristicCallbacks {
 };
 
 void setup() {
-  Serial.begin(115200);
+  Serial.begin(38400);
 
   Serial.println("1- Download and install an BLE scanner app in your phone");
   Serial.println("2- Scan for BLE devices in the app");

@@ -92,7 +92,7 @@ class advCallbacks: public NimBLEExtAdvertisingCallbacks {
 };
 
 void setup () {
-    Serial.begin(115200);
+    Serial.begin(38400);
 
     NimBLEDevice::init("Multi advertiser");
 

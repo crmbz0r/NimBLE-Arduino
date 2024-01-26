@@ -90,7 +90,7 @@ class MyCallbacks: public BLECharacteristicCallbacks {
 
 
 void setup() {
-  Serial.begin(115200);
+  Serial.begin(38400);
 
   // Create the BLE Device
   BLEDevice::init("UART Service");

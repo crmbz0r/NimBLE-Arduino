@@ -18,7 +18,7 @@ class scanCallbacks: public NimBLEScanCallbacks {
 };
 
 void setup() {
-  Serial.begin(115200);
+  Serial.begin(38400);
   Serial.println("Scanning...");
 
 /** *Optional* Sets the filtering mode used by the scanner in the BLE controller.

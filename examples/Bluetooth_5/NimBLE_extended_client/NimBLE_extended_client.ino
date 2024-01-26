@@ -121,7 +121,7 @@ bool connectToServer() {
 }
 
 void setup () {
-    Serial.begin(115200);
+    Serial.begin(38400);
     Serial.printf("Starting NimBLE Client\n");
 
     /* Initialize NimBLE, no device name specified as we are not advertising */

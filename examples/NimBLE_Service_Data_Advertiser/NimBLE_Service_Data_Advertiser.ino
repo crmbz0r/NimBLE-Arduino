@@ -16,7 +16,7 @@ static NimBLEAdvertising *pAdvertising = nullptr;
 static uint32_t count = 0;
 
 void setup() {
-  Serial.begin(115200);
+  Serial.begin(38400);
   Serial.println("Starting BLE work!");
   
   NimBLEDevice::init("svc data");

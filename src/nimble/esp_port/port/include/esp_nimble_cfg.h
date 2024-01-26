@@ -1427,7 +1427,7 @@
 
 /* Overridden by targets/porting-nimble (defined by nimble/transport/uart) */
 #ifndef MYNEWT_VAL_BLE_HCI_UART_BAUD
-#define MYNEWT_VAL_BLE_HCI_UART_BAUD (115200)
+#define MYNEWT_VAL_BLE_HCI_UART_BAUD (38400)
 #endif
 
 #ifndef MYNEWT_VAL_BLE_HCI_UART_DATA_BITS

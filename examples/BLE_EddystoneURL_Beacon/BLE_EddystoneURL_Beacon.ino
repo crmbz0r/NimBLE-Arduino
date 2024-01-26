@@ -153,7 +153,7 @@ void setBeacon()
 void setup()
 {
 
-  Serial.begin(115200);
+  Serial.begin(38400);
   gettimeofday(&now, NULL);
 
   Serial.printf("start ESP32 %d\n", bootcount++);
